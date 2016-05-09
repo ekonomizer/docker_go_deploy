@@ -6,8 +6,8 @@ services:
       context: .
       args:
         REPO: github.com/ekonomizer/normalize_go
-        EXEC_FILE: /project/bin/normalize_go
-        RUNNER_PATH: https://github.com/ekonomizer/docker_go_deploy
+        EXEC_FILE: /project/docker_go_deploy-master/run_app
+        RUNNER_PATH: https://github.com/ekonomizer/docker_go_deploy/archive/master.zip
         PORT: 12345
     ports:
      - "8880:12345"

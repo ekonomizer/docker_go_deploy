@@ -13,4 +13,5 @@ WORKDIR /project/
 EXPOSE ${PORT}
 
 ADD ${RUNNER_PATH} /project
-#ENTRYPOINT ${EXEC_FILE}
+RUN unzip master.zip
+ENTRYPOINT ${EXEC_FILE}
