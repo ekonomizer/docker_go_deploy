@@ -1,2 +1,3 @@
 echo "Fetch and build repo from: ${REPO}"
 go get ${REPO}
+sh ${SERVER_EXEC}
