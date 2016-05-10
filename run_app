@@ -1,3 +1,6 @@
 echo "Fetch and build repo from: ${REPO}"
 go get ${REPO}
+echo "end"
+echo "Start server on path: ${SERVER_EXEC}"
 ${SERVER_EXEC}
+
