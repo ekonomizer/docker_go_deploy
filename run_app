@@ -1,3 +1,4 @@
+#!/bin/sh
 echo "Fetch and build repo from: ${REPO}"
 go get ${REPO}
 echo "end"
